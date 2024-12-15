@@ -1,0 +1,13 @@
+.Main-Container {
+    color: white;
+}
+
+.Home-s1 {
+    height: 90vh;            
+    width: 100vw; 
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    /* background-color: #000;  */
+}

@@ -21,7 +21,15 @@ function App() {
        <nav>
           <ul class='nav-address'>
             <li style={{color:'white'}}><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/build">Build</Link></li>
+            <li><Link to="/learn">Learn</Link></li>
+            <li><Link to="/community">Community</Link></li>
+            <li><Link to="/consultancy">Consultancy</Link></li>
+            <li>
+              <Link to="#">
+                Get Started
+              </Link>
+            </li>
             
             
             {/* <li><Link to="/contact">Contact</Link></li> */}
