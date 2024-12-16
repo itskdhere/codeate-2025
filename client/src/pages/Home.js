@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import PeoplesGrp from '../assets/PeoplesGroup.png';
 import Live_Label from '../assets/Live_Label.png'
-import About from "../pages/About"
+import About from "../pages/About";
+import Card from "./Card";
 
 function Home() {
     const lines = [
@@ -49,6 +50,7 @@ function Home() {
             </div>
             </div>
             <About/>
+            <Card/>
 
         </div>
         
