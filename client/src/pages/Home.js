@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import PeoplesGrp from '../assets/PeoplesGroup.png';
 import Live_Label from '../assets/Live_Label.png'
+import About from "../pages/About"
 
 function Home() {
     const lines = [
@@ -46,9 +47,11 @@ function Home() {
                 <p>Join Codeate Community of over 10k+ peoples ></p>
             </div>
             </div>
-            
             </div>
+            <About/>
+
         </div>
+        
     );
 }
 
