@@ -6,6 +6,9 @@ import "./projectPage.css";
 import P1 from "../assets/p1.png";
 import P2 from "../assets/p2.png";
 import P3 from "../assets/p3.png";
+import P4 from "../assets/tezos.png";
+import P5 from "../assets/p5.png";
+
 
 function ProjectPage() {
   const settings = {
@@ -45,14 +48,12 @@ function ProjectPage() {
             <img src={P3} alt="Project 3" />
           </div>
           <div className="slider-item">
-            <img src={P1} alt="Project 1" />
+            <img src={P4} alt="Project 4" />
           </div>
           <div className="slider-item">
-            <img src={P2} alt="Project 2" />
+            <img src={P5} alt="Project 5" />
           </div>
-          <div className="slider-item">
-            <img src={P3} alt="Project 3" />
-          </div>
+       
          
         </Slider>
       </div>
