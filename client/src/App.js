@@ -6,6 +6,7 @@ import Card from './pages/Card';
 import About from './pages/About';
 import ProjectPage from './pages/projectPage';
 // import Testimonials from './pages/Testimonials';
+import Insights from './pages/Insights';
 import logo from './assets/codeateLogo.png'
 // eslint-disable-next-line
 function App() {
@@ -22,7 +23,7 @@ function App() {
        <nav>
           <ul class='nav-address'>
             <li style={{color:'white'}}><Link to="/">Home</Link></li>
-            <li><Link to="/projectPage">Build</Link></li>
+            <li><Link to="/insights">Build</Link></li>
             <li><Link to="/learn">Learn</Link></li>
             <li><Link to="/community">Community</Link></li>
             <li><Link to="/consultancy">Consultancy</Link></li>
@@ -47,6 +48,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/card" element={<Card />} />
           <Route path="/projectPage" element={<ProjectPage />} />
+          <Route path="/insights" element={<Insights />} />
+
           </Routes>
       </div>
     </Router>
