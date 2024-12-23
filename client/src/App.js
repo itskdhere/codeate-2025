@@ -12,14 +12,14 @@ import logo from './assets/codeateLogo.png'
 function App() {
   return (
     <Router>
-      <div >
+      <div className='all'>
         {/* Navigation Menu */}
 
         <div className='nav-bar'>
         <div className='logo_here'> {/*This div is for putting the logo of luminere*/}
           <img src={logo} alt='logo' />
         </div>
-       <div> {/*This div is for putting the menus of the navigation*/}
+       <div className=''> {/*This div is for putting the menus of the navigation*/}
        <nav>
           <ul class='nav-address'>
             <li style={{color:'white'}}><Link to="/">Home</Link></li>
@@ -27,9 +27,9 @@ function App() {
             <li><Link to="/learn">Learn</Link></li>
             <li><Link to="/community">Community</Link></li>
             <li><Link to="/consultancy">Consultancy</Link></li>
-            <li>
+            <li className='getStarted'>
               <Link to="#">
-                Get Started
+                <p>Get Started</p>
               </Link>
             </li>
             

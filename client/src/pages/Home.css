@@ -5,7 +5,6 @@
 
 .Home-s1 {
 
-     /* height: 90vh;   */
      width: 100vw;
      margin-top: 20vh;
      margin-bottom: 7vh;
@@ -15,8 +14,6 @@
     align-items: center; 
 }
 .Home-s1-p1 {
-    /* height: 90vh;*/
-    /* width: 100vw;*/
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -77,7 +74,7 @@
     border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     max-width: 500px;
-    /* margin: 20px auto; */
+    margin: 20px auto;
     font-size: 1rem; 
     color: #333;
 }
@@ -85,9 +82,7 @@
 
 
 .Home-s1-p3-section p {
-    font-weight: bold; /* Optional: Emphasize text */
+    font-weight: bold;
+
 }
-
-
-
 

@@ -41,7 +41,7 @@ function Home() {
                 ))}
                
             </div>
-            <div className="Home-s1-p2"> <p>Discover the path to success with us! Learn new skills, build <br/> remarkable projects, and conquer challenges alongside a vibrant <br/> community of thousands of like-minded professionals.<br/>  Join now for free and start your journey to greatness!</p></div>
+            <div className="Home-s1-p2"> <p>Discover the power of cohort-based courses designed to take your learning to the next level. <br/>At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world.<br/> Learn alongside a thriving community and turn knowledge into real-world expertise.</p></div>
             <div className="Home-s1-p3">
             <img src={PeoplesGrp} alt="PeoplesGrp"/>
             <p>+ 11.1k</p>
