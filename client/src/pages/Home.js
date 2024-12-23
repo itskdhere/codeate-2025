@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
+
 import PeoplesGrp from '../assets/PeoplesGroup.png';
 import Live_Label from '../assets/Live_Label.png'
 import About from "../pages/About";
 import Card from "./Card";
 import ProjectPage from "./projectPage";
-// import Insights from "./Insights";
+import Insights from "./Insights";
 
 function Home() {
     const lines = [
@@ -54,7 +55,7 @@ function Home() {
             <About/>
             <Card/>
             <ProjectPage/>
-            {/* <Insights/> */}
+            <Insights/>
 
         </div>
         
