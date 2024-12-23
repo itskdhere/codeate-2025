@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Insights.css";
+import "./Insights.css";
 import bg from '../assets/backDaim.png';
 import editLogo from '../assets/editLogo.png';
 import bg2 from '../assets/sectionBg.png';

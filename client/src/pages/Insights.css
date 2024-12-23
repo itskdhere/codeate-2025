@@ -118,10 +118,10 @@
     color: #2f8fff; /* Icon color */
 }
   
-p {
+/* p {
     font-size: 16px;
     color: #ffffff;
-}
+} */
   
 .lowerSection-content {
     display: flex; 
@@ -161,4 +161,6 @@ p {
     color: #ffffff;
     margin: 0;
   }
+  
+
   

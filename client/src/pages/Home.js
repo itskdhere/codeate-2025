@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-
 import PeoplesGrp from '../assets/PeoplesGroup.png';
 import Live_Label from '../assets/Live_Label.png'
 import About from "../pages/About";
