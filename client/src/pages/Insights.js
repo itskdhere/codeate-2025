@@ -1,6 +1,9 @@
 import React from "react";
 import "./Insights.css";
-import bg from '../assets/backDaim.png'
+import bg from '../assets/backDaim.png';
+import editLogo from '../assets/editLogo.png';
+import bg2 from '../assets/sectionBg.png';
+
 
 function Insights(){
     return(
@@ -45,8 +48,55 @@ function Insights(){
             </div>
 
             <div className="lowerSection">
+            <img className="bg2Image" src={bg2} alt="background"/>
+  <h2 className="lowerSection-title">Why choose us</h2>
+  <div className="lowerSection-grid">
+  <div className="lowerSection-item">
+  <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo" />
+    <p>Project Building Opportunities</p>
+  </div>
+</div>
 
-            </div>
+    <div className="lowerSection-item">
+    <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo"/>
+    <p>Hands-on Learning</p>
+    </div>
+    </div>
+
+    <div className="lowerSection-item">
+    <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo"/>
+    <p>Direct Industry Connect</p>
+    </div>
+    </div>
+
+    <div className="lowerSection-item">
+    <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo"/>
+    <p>Internships</p>
+    </div>
+    </div>
+
+    <div className="lowerSection-item">
+    <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo"/>
+    <p>Certifications</p>
+    </div>
+    </div>
+
+    <div className="lowerSection-item">
+    <div className="lowerSection-content">
+    <img src={editLogo} alt="edit logo"/>
+    <p>24×7 Community Support</p>
+    </div>
+      
+    </div>
+  </div>
+</div>
+
+            
         </div>
     );
 }
