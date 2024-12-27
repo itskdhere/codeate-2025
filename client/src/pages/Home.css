@@ -95,77 +95,98 @@
     font-weight: bold;
 
 }
-/* 
-.Home-s1-p2{
-    
-}
- */
 
 
-
-/* Responsive Styles */
 @media (max-width: 1024px) {
     .Home-s1 h1 {
-        font-size: 50px; /* Reduce font size for medium screens */
+        font-size: 50px; 
     }
 
     .Home-s1-p2 {
-        font-size: 1rem; /* Adjust font size for paragraph */
-        margin-top: 10vh; /* Adjust margin-top for smaller screens */
+        font-size: 1rem; 
+        margin-top: 10vh; 
     }
 
     .Home-s1-p3-section {
-        max-width: 400px; /* Adjust max width */
-        font-size: 0.9rem; /* Adjust font size */
+        max-width: 400px; 
+        font-size: 0.9rem; 
     }
 }
 
 @media (max-width: 768px) {
     .Home-s1 {
-        margin-top: 5vh; /* Reduce top margin for smaller screens */
+        margin-top: 5vh;
     }
 
     .Home-s1 h1 {
-        font-size: 40px; /* Further reduce font size */
+        font-size: 40px;
     }
 
     .Home-s1-p2 {
-        font-size: 0.9rem; /* Further adjust paragraph font size */
-        margin-top: 8vh; /* Adjust margin-top for smaller screens */
+        font-size: 0.9rem; 
+        margin-top: 8vh; 
     }
 
     .Home-s1-p3-section {
-        flex-direction: column; /* Stack sections vertically on small screens */
-        max-width: 90%; /* Use more width on smaller screens */
+        flex-direction: column; 
+        max-width: 90%; 
         font-size: 0.9rem;
-        margin-top: 15px; /* Add space between sections */
+        margin-top: 15px; 
     }
 
     .Home-s1-p3-section p {
-        font-size: 0.9rem; /* Adjust font size for better readability */
+        font-size: 0.9rem; 
     }
 }
 
 @media (max-width: 480px) {
     .Home-s1 {
-        margin-top: 3vh; /* Further reduce top margin for very small screens */
+        margin-top: 3vh;
     }
 
     .Home-s1 h1 {
-        font-size: 30px; /* Further reduce font size */
+        font-size: 20px; 
     }
 
     .Home-s1-p2 {
-        font-size: 0.8rem; /* Reduce paragraph font size */
-        margin-top: 5vh; /* Adjust margin for smaller devices */
+        font-size: 0.7rem; 
+        margin-top: 5vh; 
+        max-width: 40vh;
+    }
+    .Home-s1-p3{
+        max-width: 40vh;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px
+    }
+    .Home-s1-p3 img{
+        max-width: 30%;
+        margin-top: 30px;
+    }
+    .Home-s1-p3 p{
+        font-size: 10px;
+    }
+    .Home-s1-p3-section p{
+        font-size: 2px;
     }
 
     .Home-s1-p3-section {
-        max-width: 100%; /* Full width for very small screens */
-        padding: 10px; /* Increase padding for better spacing */
+        max-width: 100%;
+        padding: 10px; 
+        text-align: center; 
+        display: flex; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 8px;
     }
 
     .Home-s1-p3-section p {
-        font-size: 0.8rem; 
+        font-size: 0.5rem; 
+    }
+    .Home-s1-p3-section img {
+        width: 54px; 
+        height: auto;
     }
 }

@@ -71,8 +71,8 @@
 }
 
 .getStarted {
-  background-color: white; /* Card background */
-  border: 2px solid #0E5AED; /* Border color */
+  background-color: white;
+  border: 2px solid #0E5AED; 
   border-radius: 12px;
   color: #0E5AED;
   margin-left: 100px;
@@ -86,26 +86,26 @@
 
 @media (max-width: 1024px) {
   .nav-bar {
-    grid-auto-flow: row; /* Stack items vertically on smaller screens */
+    grid-auto-flow: row; 
     justify-content: center;
     text-align: center;
     padding: 20px;
   }
 
   .logo_here {
-    margin: 0 auto; /* Center logo */
+    margin: 0 auto; 
   }
 
   .nav-address {
     margin: 10px 0;
     gap: 10px;
     display: flex;
-    flex-wrap: wrap; /* Wrap menu items on smaller screens */
+    flex-wrap: wrap; 
     justify-content: center;
   }
 
   .getStarted {
-    margin: 10px auto; /* Center the button */
+    margin: 10px auto;
   }
 }
 
@@ -115,18 +115,18 @@
   }
 
   .logo_here img {
-    max-width: 60%; /* Reduce logo size */
+    max-width: 60%;
   }
 
   .nav-address {
     gap: 8px;
     margin: 10px 0;
-    font-size: 14px; /* Reduce font size */
+    font-size: 14px;
   }
 
   .getStarted {
     padding: 8px 12px;
-    font-size: 14px; /* Adjust button size */
+    font-size: 14px; 
   }
 }
 
@@ -136,17 +136,17 @@
   }
 
   .logo_here img {
-    max-width: 50%; /* Further reduce logo size */
+    max-width: 50%;
   }
 
   .nav-address {
-    flex-direction: column; /* Stack menu items vertically */
+    flex-direction: column;
     align-items: center;
     gap: 10px;
   }
 
   .nav-address li {
-    font-size: 12px; /* Adjust font size for small screens */
+    font-size: 12px;
   }
 
   .getStarted {

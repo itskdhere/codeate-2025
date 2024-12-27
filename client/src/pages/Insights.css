@@ -22,7 +22,7 @@
 .content-row {
     display: flex;
     align-items: center; 
-    gap: 24px; /* Space between the image and the heading */
+    gap: 24px;
   }
   
 .about-us-content p, .vision-content p, .mission-content p{
@@ -248,7 +248,7 @@
         height: auto;
         margin: 0 auto;
     }
-
+   
     .card {
         width: 100%;
         margin: 10px 0;
@@ -269,5 +269,8 @@
 
     .lowerSection-content p {
         font-size: 12px;
+    }
+    .content-row img{
+        max-width: 0%;
     }
 }

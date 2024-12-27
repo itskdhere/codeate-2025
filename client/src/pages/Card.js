@@ -18,16 +18,16 @@ function Card() {
             </div>
             <div className='right'>
             <div className='paragraph-Div'>
-                <h2 >Learn</h2>
+                <h2>Learn</h2>
                 <p></p>
                 <h3>Elevate Your Skills with Experiential Learning.</h3>
                 
-                <p>Discover the power of cohort-based courses designed to take your learning to the next level. At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world. Learn alongside a thriving community and turn knowledge into real-world expertise.</p>
+                <p className='const'>Discover the power of cohort-based courses designed to take your learning to the next level. At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world. Learn alongside a thriving community and turn knowledge into real-world expertise.</p>
                 </div>
                
                 <h3><br/>Learn More</h3>
             </div>
-            </div>
+            </div> 
 
             <div className='learn'>
                 <div className='left'>
@@ -59,8 +59,7 @@ function Card() {
             <div className='right'><div className='paragraph-Div'>
                 <h2>Community</h2>
                 <p></p>
-                <h3>Your Gateway to an AI-Powered Career.
-</h3>
+                <h3>Your Gateway to an AI-Powered Career.</h3>
                 <p>
                 Join a professional community that bridges the gap between learning and industry. Collaborate with peers, gain direct exposure to real-world projects, and stay ahead with AI-driven insights and workshops. Build your network, sharpen your skills. And get ready for the career of tomorrow, today.</p>
                 <h3><br/>Learn More</h3>

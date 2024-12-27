@@ -35,46 +35,46 @@
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .textSection {
-        font-size: 18px; /* Adjust font size for medium screens */
-        letter-spacing: 1.5px; /* Adjust letter spacing */
+        font-size: 18px;
+        letter-spacing: 1.5px; 
     }
 
     .mentorComp {
-        gap: 30%; /* Reduce the gap on smaller screens */
-        margin: 50px 0; /* Adjust the margin */
+        gap: 30%;
+        margin: 50px 0;
     }
 
     .mentorComp img {
-        width: 90px; /* Adjust image size */
+        width: 90px;
     }
 }
 
 @media (max-width: 768px) {
     .textSection {
-        font-size: 15px; /* Adjust font size for smaller screens */
-        letter-spacing: 1px; /* Adjust letter spacing */
+        font-size: 15px; 
+        letter-spacing: 1px;
     }
 
     .mentorComp {
-        gap: 20%; /* Further reduce gap */
-        margin: 40px 0; /* Adjust the margin */
+        gap: 20%; 
+        margin: 40px 0; 
     }
 
     .mentorComp img {
-        width: 80px; /* Further adjust image size */
+        width: 80px; 
     }
 }
 
 @media (max-width: 480px) {
     .textSection {
-        font-size: 10px; /* Reduce font size for small devices */
-        letter-spacing: 0.5px; /* Reduce letter spacing */
-        margin-top: 30px; /* Adjust margin-top */
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        margin-top: 30px;
     }
 
     .mentorComp {
-        gap: 10%; /* Further reduce the gap */
-        margin: 40px 0; /* Adjust margin */
+        gap: 10%;
+        margin: 40px 0; 
     }
     
     .one{
@@ -82,6 +82,6 @@
     }
 
     .mentorComp img {
-        width: 70px; /* Adjust image size for very small screens */
+        width: 70px; 
     }
 }

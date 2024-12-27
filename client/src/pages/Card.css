@@ -81,7 +81,7 @@
 @media (max-width: 768px) {
     .fullCard {
         margin-top: 5vh;
-    }
+    } 
     .to-dim{
         max-width: 0%;
     }
@@ -108,40 +108,51 @@
 @media (max-width: 480px) {
     .fullCard {
         margin-top: 5vh;
-        /* Scale down the card size */
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .learn {
+        display: flex;
         flex-direction: column;
         margin-bottom: 15px;
         padding: 10px;
-        /* Make the learn container smaller */
     }
 
     .left, .right {
+        display: flex; /* Enable flexbox */
+        flex-direction: column; /* Ensure content stays in a column */
         padding: 10px;
     }
-    .to-dim{
+    .left{
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding-top: 10px;
+    }
+
+    .to-dim {
         max-width: 0%;
     }
 
     .paragraph-Div {
         max-width: 100%;
         padding: 0;
-        /* Adjust the paragraph container for mobile */
     }
 
     .right {
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
         padding-top: 10px;
     }
 
-    .learn h2, .learn h3 {
+    .learn h2 {
         text-align: center;
-        font-size: 1.2rem;
-        /* Decrease font size for smaller screens */
+        font-size: 20px;
+    }
+    .learn h3 {
+        font-size: 15px;
     }
 
     .left {
@@ -149,13 +160,25 @@
     }
 
     .left p, .right p {
-        font-size: 0.9rem;
-        /* Reduce font size for better readability */
+        font-size: 0.7rem;
+    }
+
+    .left h2, .right h2 {
+        font-size: 35px;
+        color: #0E5AED;
+    }
+
+    .left img, .right img {
+        max-width: 70%;
+        height: auto;
     }
 
     .learn img {
-        width: 80%; /* Scale down images */
+        width: 80%;
         height: auto;
-        /* Ensure images fit within smaller screens */
+    }
+
+    .left h3 {
+        margin-top: 10px; /* Add spacing for better readability */
     }
 }

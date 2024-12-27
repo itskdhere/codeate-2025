@@ -2,10 +2,16 @@ import React from 'react';
 import "./Testimonial.css";
 import testi1 from '../assets/testi1.png';
 import quote from '../assets/Quote.png';
+import codeateLogo from '../assets/codeateLogo2.png';
+import whatsappVector from '../assets/whatsappVector.png';
+import instaVector from '../assets/instaVector.png';
+import linVector from '../assets/linVector.png';
+import discVector from '../assets/discVector.png';
 
 function Testimonial() {
     return(
-        <div className='testimonial'>
+        <div className='mContainer'>
+<div className='testimonial'>
             <div className='upper-section'>
             <div className='upper-section-left'>
                 <h2>Number That Tell Our Story</h2>
@@ -50,7 +56,56 @@ function Testimonial() {
                     </div>
                 </div>
             </div>
+            
         </div>
+        <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <img src={codeateLogo} alt="Codeate Logo" class="footer-logo" />
+      <p>Enabling community-led peer-to-peer learning like never before!</p>
+      <button class="join-button">Join Community</button>
+    </div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="#">Build</a></li>
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Consultancy</a></li>
+          <li><a href="#">College Connects</a></li>
+          <li><a href="#">Upskilling</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Helpful Links</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Codeate. All rights reserved</p>
+    <div class="social-icons">
+      <a href="#"><img src={whatsappVector} alt="WhatsApp" /></a>
+      <a href="#"><img src={instaVector} alt="Instagram" /></a>
+      <a href="#"><img src={linVector} alt="LinkedIn" /></a>
+      <a href="#"><img src={discVector} alt="Discord" /></a>
+    </div>
+  </div>
+</footer>
+
+        </div>
+        
     );
 }
 
