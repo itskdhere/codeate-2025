@@ -13,10 +13,10 @@ function About() {
             </div>
 
             <div className="mentorComp">
-            <img src={v1} alt='Amazon '/>
-            <img src={v2} alt='Cisco'/>
-            <img src={v3} alt='Deloitte'/>
-            <img src={v4} alt='Tsc'/>
+            <img className='one' src={v1} alt='Amazon '/>
+            <img className='one' src={v2} alt='Cisco'/>
+            <img className='one' src={v3} alt='Deloitte'/>
+            <img className='one' src={v4} alt='Tsc'/>
             </div>
         </div>
     );

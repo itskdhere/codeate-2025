@@ -30,3 +30,58 @@
 .mentorComp img:hover {
     transform: scale(1.1); 
 }
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .textSection {
+        font-size: 18px; /* Adjust font size for medium screens */
+        letter-spacing: 1.5px; /* Adjust letter spacing */
+    }
+
+    .mentorComp {
+        gap: 30%; /* Reduce the gap on smaller screens */
+        margin: 50px 0; /* Adjust the margin */
+    }
+
+    .mentorComp img {
+        width: 90px; /* Adjust image size */
+    }
+}
+
+@media (max-width: 768px) {
+    .textSection {
+        font-size: 15px; /* Adjust font size for smaller screens */
+        letter-spacing: 1px; /* Adjust letter spacing */
+    }
+
+    .mentorComp {
+        gap: 20%; /* Further reduce gap */
+        margin: 40px 0; /* Adjust the margin */
+    }
+
+    .mentorComp img {
+        width: 80px; /* Further adjust image size */
+    }
+}
+
+@media (max-width: 480px) {
+    .textSection {
+        font-size: 10px; /* Reduce font size for small devices */
+        letter-spacing: 0.5px; /* Reduce letter spacing */
+        margin-top: 30px; /* Adjust margin-top */
+    }
+
+    .mentorComp {
+        gap: 10%; /* Further reduce the gap */
+        margin: 40px 0; /* Adjust margin */
+    }
+    
+    .one{
+        max-width: 20%;
+    }
+
+    .mentorComp img {
+        width: 70px; /* Adjust image size for very small screens */
+    }
+}

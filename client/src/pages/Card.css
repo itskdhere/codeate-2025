@@ -1,17 +1,16 @@
 .learn{
     display: flex;
     align-items: center;
-    margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 20px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-
-    /* justify-content: space-between; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    justify-content: space-between;
 }
 .fullCard{
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    margin-top: 15vh;
 }
 .right{
     display: flex;
@@ -27,4 +26,136 @@
 }
 .left p{
     margin: 10px 0;
+}
+
+.paragraph-Div {
+    max-width: 400px; 
+    height: auto; 
+    padding: 0px; 
+    margin-top: 20px; 
+    line-height: 1.6; 
+    text-align: justify; 
+    overflow-wrap: break-word; 
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .fullCard {
+        margin-top: 10vh;
+    }
+
+    .learn {
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .left, .right {
+        padding: 20px;
+    }
+
+    .right {
+        align-items: center;
+    }
+
+    .left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .paragraph-Div {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Hide cardRect1 and cardRect2 on screens smaller than 800px */
+@media (max-width: 800px) {
+    .learn img[src*='cardRect1'], 
+    .learn img[src*='cardRect2'] {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .fullCard {
+        margin-top: 5vh;
+    }
+    .to-dim{
+        max-width: 0%;
+    }
+    .learn {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .left, .right {
+        padding: 15px;
+    }
+
+    .paragraph-Div {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .learn h2, .learn h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .fullCard {
+        margin-top: 5vh;
+        /* Scale down the card size */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .learn {
+        flex-direction: column;
+        margin-bottom: 15px;
+        padding: 10px;
+        /* Make the learn container smaller */
+    }
+
+    .left, .right {
+        padding: 10px;
+    }
+    .to-dim{
+        max-width: 0%;
+    }
+
+    .paragraph-Div {
+        max-width: 100%;
+        padding: 0;
+        /* Adjust the paragraph container for mobile */
+    }
+
+    .right {
+        padding-top: 10px;
+    }
+
+    .learn h2, .learn h3 {
+        text-align: center;
+        font-size: 1.2rem;
+        /* Decrease font size for smaller screens */
+    }
+
+    .left {
+        padding: 20px 10px;
+    }
+
+    .left p, .right p {
+        font-size: 0.9rem;
+        /* Reduce font size for better readability */
+    }
+
+    .learn img {
+        width: 80%; /* Scale down images */
+        height: auto;
+        /* Ensure images fit within smaller screens */
+    }
 }

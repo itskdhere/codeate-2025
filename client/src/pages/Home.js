@@ -6,12 +6,13 @@ import About from "../pages/About";
 import Card from "./Card";
 import ProjectPage from "./projectPage";
 import Insights from "./Insights";
+import Testimonial from "./Testimonial";
 
 function Home() {
     const lines = [
        
         "Professionally",
-        "Beyond hello world",
+        "Beyond \"Hello World\"",
         "For your career",
     ];
     const [activeIndex, setActiveIndex] = useState(0);
@@ -41,7 +42,7 @@ function Home() {
                 ))}
                
             </div>
-            <div className="Home-s1-p2"> <p>Discover the power of cohort-based courses designed to take your learning to the next level. <br/>At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world.<br/> Learn alongside a thriving community and turn knowledge into real-world expertise.</p></div>
+            <div className="Home-s1-p2"><p>Discover the power of cohort-based courses designed to take your learning to the next level. At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world. Learn alongside a thriving community and turn knowledge into real-world expertise.</p></div>
             <div className="Home-s1-p3">
             <img src={PeoplesGrp} alt="PeoplesGrp"/>
             <p>+ 11.1k</p>
@@ -55,6 +56,7 @@ function Home() {
             <Card/>
             <ProjectPage/>
             <Insights/>
+            <Testimonial/>
 
         </div>
         

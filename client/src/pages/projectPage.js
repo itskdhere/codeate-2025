@@ -32,9 +32,11 @@ function ProjectPage() {
 
   return (
     <div className="project-page">
-      <h1 className="project-header">Our Flagship Projects</h1>
-      <p className="project-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      <h1 className="project-header">
+        <span className="highlight">Our</span> Flagship Projects
+      </h1>
+      <p>
+        Real-World Innovation, Powered by Our Community
       </p>
       <div className="project-gallery">
         <Slider {...settings}>

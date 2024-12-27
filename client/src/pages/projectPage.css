@@ -1,6 +1,7 @@
 .project-page {
     text-align: center;
     padding: 20px;
+    margin-top: 22vh;
   }
 
   .project-page p{
@@ -14,15 +15,20 @@
   }
   
   .project-header {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
+    font-size: 2.25rem;
+    margin-bottom: 3px;
+    color: #333;    
+  }
+  .highlight {
+    color: #0E5AED;
   }
   
-  .project-description {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #555;
+  .project-page p{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #6E727E;
+    font-weight: 400;
+    
   }
   
   /* Slider styles */

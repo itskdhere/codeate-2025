@@ -6,22 +6,27 @@
 .Home-s1 {
 
      width: 100vw;
-     margin-top: 20vh;
+     margin-top: 10vh;
      margin-bottom: 7vh;
 
     display: flex;
     flex-direction: column; 
     align-items: center; 
 }
+.Home-s1 h1{
+    font-size: 70px;
+    font-weight: 800;
+}
 .Home-s1-p1 {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     background-color: white; 
+    color: #467be6;
+
 }
-.Home-s1-p2{
-    margin-top: 60px;
-}
+
+
 .line {
     opacity: 0;
     transform: translateY(10px);
@@ -47,6 +52,11 @@
     font-size: 1.2rem;
     line-height: 1.6; 
     font-weight: 200;
+    max-width: 770px; 
+    height: auto;
+    line-height: 1.6; 
+    margin-top: 15vh;
+
 }
 
 .Home-s1-p3 {
@@ -85,4 +95,77 @@
     font-weight: bold;
 
 }
+/* 
+.Home-s1-p2{
+    
+}
+ */
 
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .Home-s1 h1 {
+        font-size: 50px; /* Reduce font size for medium screens */
+    }
+
+    .Home-s1-p2 {
+        font-size: 1rem; /* Adjust font size for paragraph */
+        margin-top: 10vh; /* Adjust margin-top for smaller screens */
+    }
+
+    .Home-s1-p3-section {
+        max-width: 400px; /* Adjust max width */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .Home-s1 {
+        margin-top: 5vh; /* Reduce top margin for smaller screens */
+    }
+
+    .Home-s1 h1 {
+        font-size: 40px; /* Further reduce font size */
+    }
+
+    .Home-s1-p2 {
+        font-size: 0.9rem; /* Further adjust paragraph font size */
+        margin-top: 8vh; /* Adjust margin-top for smaller screens */
+    }
+
+    .Home-s1-p3-section {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        max-width: 90%; /* Use more width on smaller screens */
+        font-size: 0.9rem;
+        margin-top: 15px; /* Add space between sections */
+    }
+
+    .Home-s1-p3-section p {
+        font-size: 0.9rem; /* Adjust font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .Home-s1 {
+        margin-top: 3vh; /* Further reduce top margin for very small screens */
+    }
+
+    .Home-s1 h1 {
+        font-size: 30px; /* Further reduce font size */
+    }
+
+    .Home-s1-p2 {
+        font-size: 0.8rem; /* Reduce paragraph font size */
+        margin-top: 5vh; /* Adjust margin for smaller devices */
+    }
+
+    .Home-s1-p3-section {
+        max-width: 100%; /* Full width for very small screens */
+        padding: 10px; /* Increase padding for better spacing */
+    }
+
+    .Home-s1-p3-section p {
+        font-size: 0.8rem; 
+    }
+}
