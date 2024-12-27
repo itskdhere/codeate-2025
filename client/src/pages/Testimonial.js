@@ -2,11 +2,11 @@ import React from 'react';
 import "./Testimonial.css";
 import testi1 from '../assets/testi1.png';
 import quote from '../assets/Quote.png';
-import codeateLogo from '../assets/codeateLogo2.png';
 import whatsappVector from '../assets/whatsappVector.png';
 import instaVector from '../assets/instaVector.png';
 import linVector from '../assets/linVector.png';
 import discVector from '../assets/discVector.png';
+import codeateLogo from '../assets/codeateLogo2.png'
 
 function Testimonial() {
     return(
