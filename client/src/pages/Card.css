@@ -75,9 +75,7 @@
     .learn img[src*='cardRect2'] {
         display: none;
     }
-    .to-dim {
-        max-width: 0%;
-    } 
+    
 }
 
 
