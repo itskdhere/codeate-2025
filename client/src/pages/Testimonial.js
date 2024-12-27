@@ -63,7 +63,10 @@ function Testimonial() {
     <div class="footer-brand">
       <img src={codeateLogo} alt="Codeate Logo" class="footer-logo" />
       <p>Enabling community-led peer-to-peer learning like never before!</p>
-      <button class="join-button">Join Community</button>
+      <div>
+      <a href="https://forms.gle/9DkBeF84MoVwhVDSA" target="_blank" class="join-button">Join Community</a>
+
+      </div>
     </div>
     <div class="footer-links">
       <div class="footer-column">
@@ -97,8 +100,8 @@ function Testimonial() {
     <p>© 2024 Codeate. All rights reserved</p>
     <div class="social-icons">
       <a href="#"><img src={whatsappVector} alt="WhatsApp" /></a>
-      <a href="#"><img src={instaVector} alt="Instagram" /></a>
-      <a href="#"><img src={linVector} alt="LinkedIn" /></a>
+      <a href="https://www.instagram.com/codeate.in?igsh=MXdseTJqYmJ0dnF1Ng=="><img src={instaVector} alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A74886369&keywords=codeate&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=974f88ff-3e35-48f8-bca8-ad4a56cb7ab2&sid=5%3Am&spellCorrectionEnabled=true"><img src={linVector} alt="LinkedIn" /></a>
       <a href="#"><img src={discVector} alt="Discord" /></a>
     </div>
   </div>

@@ -69,7 +69,6 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    
 }
 
 
@@ -93,6 +92,13 @@
 
 .Home-s1-p3-section p {
     font-weight: bold;
+
+}
+.Home-s1-p3 p{
+    margin: 0 30px 0 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6E727E;
 
 }
 
