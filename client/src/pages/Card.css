@@ -75,6 +75,9 @@
     .learn img[src*='cardRect2'] {
         display: none;
     }
+    .to-dim {
+        max-width: 0%;
+    } 
 }
 
 
@@ -94,6 +97,9 @@
     .left, .right {
         padding: 15px;
     }
+    .to-dim {
+        max-width: 0%;
+    } 
 
     .paragraph-Div {
         max-width: 100%;
@@ -134,7 +140,7 @@
 
     .to-dim {
         max-width: 0%;
-    }
+    } 
 
     .paragraph-Div {
         max-width: 100%;
