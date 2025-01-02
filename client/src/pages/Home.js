@@ -55,7 +55,7 @@ function Home() {
             <About/>
             <Card/>
             <ProjectPage/>
-            <Insights/>
+            {/* <Insights/> */}
             <Testimonial/>
 
 

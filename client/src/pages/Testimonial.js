@@ -6,7 +6,9 @@ import whatsappVector from '../assets/whatsappVector.png';
 import instaVector from '../assets/instaVector.png';
 import linVector from '../assets/linVector.png';
 import discVector from '../assets/discVector.png';
-import codeateLogo from '../assets/codeateLogo2.png'
+import codeateLogo from '../assets/codeateLogo2.png';
+import Insights from "./Insights";
+
 
 function Testimonial() {
     return(
@@ -56,8 +58,10 @@ function Testimonial() {
                     </div>
                 </div>
             </div>
-            
         </div>
+        
+        <Insights/>
+
         <footer class="footer">
   <div class="footer-container">
     <div class="footer-brand">
@@ -96,6 +100,7 @@ function Testimonial() {
       </div>
     </div>
   </div>
+  
   <div class="footer-bottom">
     <p>© 2024 Codeate. All rights reserved</p>
     <div class="social-icons">
