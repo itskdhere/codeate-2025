@@ -40,7 +40,6 @@ function Insights(){
                 At Codeate, we integrate AI-powered tools to create a tailored learning experience. Our platform personalizes your path, ensuring you receive the right resources, projects, and mentorship at every step of your journey. With AI, we make experiential learning more effective, intuitive, and aligned with industry demands.
                 </p>
                 </div>
-                
 
                 </div>
                 <div className="card">
@@ -61,54 +60,7 @@ function Insights(){
                 </div>
             </div>
 
-            <div className="lowerSection">
-            <img className="bg2Image" src={bg2} alt="background"/>
-  <h2 className="lowerSection-title">Why choose us</h2>
-  <div className="lowerSection-grid">
-  <div className="lowerSection-item">
-  <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo" />
-    <p>Project Building Opportunities</p>
-  </div>
-</div>
-
-    <div className="lowerSection-item">
-    <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo"/>
-    <p>Hands-on Learning</p>
-    </div>
-    </div>
-
-    <div className="lowerSection-item">
-    <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo"/>
-    <p>Direct Industry Connect</p>
-    </div>
-    </div>
-
-    <div className="lowerSection-item">
-    <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo"/>
-    <p>Internships</p>
-    </div>
-    </div>
-
-    <div className="lowerSection-item">
-    <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo"/>
-    <p>Certifications</p>
-    </div>
-    </div>
-
-    <div className="lowerSection-item">
-    <div className="lowerSection-content">
-    <img src={editLogo} alt="edit logo"/>
-    <p>24×7 Community Support</p>
-    </div>
-      
-    </div>
-  </div>
-</div>
+            
 
             
         </div>

@@ -58,6 +58,7 @@ function Home() {
             <Insights/>
             <Testimonial/>
 
+
         </div>
         
     );
