@@ -37,6 +37,10 @@
     text-align: justify; 
     overflow-wrap: break-word; 
 }
+.paragraph-Div h2{
+    font-size: 36px;
+    color: #0E5AED;
+}
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
