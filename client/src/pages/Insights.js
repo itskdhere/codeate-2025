@@ -11,7 +11,7 @@ function Insights(){
     return(
         <div className="insightSection">
          <div className="upperSection-head">
-                <h1>About Us</h1>
+                <h1>Who We Are?</h1>
                 <p>Revolutionizing AI-Powered Experiential Learning</p>
                 </div>
             <div className="upperSection">
