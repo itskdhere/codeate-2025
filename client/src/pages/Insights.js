@@ -62,8 +62,10 @@ function Insights(){
       <p>Let's do this</p>
     </div>
     <div className="right-section">
-      <p>Book a call on Calendly</p>
-    </div>
+  <a href="https://linktr.ee/krishnenduSamanta" target="_blank" rel="noopener noreferrer">
+    <p>Book a call on Calendly</p>
+  </a>
+</div>
   </div>
 </div>
 
