@@ -22,11 +22,11 @@ function App() {
        <div className=''> {/*This div is for putting the menus of the navigation*/}
        <nav>
           <ul class='nav-address'>
-            <li style={{color:'white'}}><Link to="/">Home</Link></li>
+            {/* <li style={{color:'white'}}><Link to="/">Home</Link></li> */}
             <li><Link to="/testimonial">Build</Link></li>
             <li><Link to="/learn">Learn</Link></li>
             <li><Link to="/community">Community</Link></li>
-            <li><Link to="/consultancy">Consultancy</Link></li>
+            {/* <li><Link to="/consultancy">Consultancy</Link></li> */}
             <li className='getStarted'>
               <Link to="#">
                 <p>Get Started</p>
