@@ -4,6 +4,7 @@ import "./Insights.css";
 // import editLogo from '../assets/editLogo.png';
 // import bg2 from '../assets/sectionBg.png';
 import inRect from "../assets/inRect.png";
+import card from "../assets/GradientFill.svg";
 
 
 function Insights(){
@@ -53,6 +54,19 @@ function Insights(){
                 </div>
                 </div>
             </div> 
+            <div className="lower-card">
+  <img src={card} alt="card" />
+  <div className="content-inside">
+    <div className="left-section">
+      <h3>Want to connect with us?</h3>
+      <p>Let's do this</p>
+    </div>
+    <div className="right-section">
+      <p>Book a call on Calendly</p>
+    </div>
+  </div>
+</div>
+
         </div>
     );
 }
