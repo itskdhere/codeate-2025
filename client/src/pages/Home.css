@@ -134,7 +134,7 @@
         margin-top: 8vh; 
     }
     .professional-image{
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .Home-s1-p3-section {
@@ -152,10 +152,12 @@
 @media (max-width: 480px) {
     .Home-s1 {
         margin-top: 3vh;
+        margin-bottom: 0;
     }
 
     .Home-s1 h1 {
         font-size: 20px; 
+        margin-bottom: 0;
     }
 
     .Home-s1-p2 {
