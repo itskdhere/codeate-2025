@@ -8,7 +8,26 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    text-align: center;
+}
+.upperSection-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    gap: 20px; 
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
+.upperSection-head h1{
+color: #0E5AED;
+}
+.upperSection-head p{
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #6E727E;
 }
 
 .about-us-content{
@@ -33,6 +52,9 @@
     color: #0E5AED;
     font-weight: 700;
     font-size: 2.25rem;
+}
+.vision-content h2, .mission-content h2 {
+    font-size: 1.1rem;
 }
 
 .vision-content, .mission-content{
@@ -217,6 +239,9 @@
         height: auto;
         margin: 0 auto;
     }
+    .upperSection-head p{
+        font-size: 20px;
+    }
 
     .card {
         width: 100%;
@@ -249,7 +274,9 @@
         height: auto;
         margin: 0 auto;
     }
-
+    .upperSection-head p{
+        font-size: 18px;
+    }
     .content-row {
         flex-direction: column;
         gap: 16px;
@@ -290,7 +317,9 @@
         height: auto;
         margin: 0 auto;
     }
-   
+    .upperSection-head p{
+        font-size: 16px;
+    }
     .card {
         width: 100%;
         margin: 10px 0;

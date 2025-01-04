@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Testimonial.css";
 import testi1 from '../assets/testi1.png';
+import testi2 from '../assets/testi2.png';
+import testi3 from '../assets/testi3.png';
 import quote from '../assets/Quote.png';
 import whatsappVector from '../assets/whatsappVector.png';
 import instaVector from '../assets/instaVector.png';
@@ -11,12 +13,15 @@ import Insights from "./Insights";
 
 
 function Testimonial() {
+
+
+
     return(
         <div className='mContainer'>
 <div className='testimonial'>
             <div className='upper-section'>
             <div className='upper-section-left'>
-                <h2>Number That Tell Our Story</h2>
+                <h2>Number<br/>That Tell Our Story</h2>
                 <p>At Codeate, our numbers reflect the tangible impact we're making. From groundbreaking projects to a thriving community of learners and professionals, every stat tells the story of our success.</p>
             </div>
             <div className='upper-section-right'>
@@ -25,16 +30,16 @@ function Testimonial() {
                     <p>Colleges</p>
                 </div>
                 <div className='upper-section-right-elems'>
-                    <h3>5000+</h3>
-                    <p>Community Members</p>
-                </div>
-                <div className='upper-section-right-elems'>
                     <h3>125+</h3>
                     <p>Projects</p>
                 </div>
                 <div className='upper-section-right-elems'>
                     <h3>25+</h3>
                     <p>Partners</p>
+                </div>
+                <div className='upper-section-right-elems'>
+                    <h3>5000+</h3>
+                    <p>Community Members</p>
                 </div>
                 <div className='upper-section-right-elems'>
                     <h3>1000+</h3>

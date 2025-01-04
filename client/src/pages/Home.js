@@ -9,7 +9,7 @@ import Insights from "./Insights";
 import Testimonial from "./Testimonial";
 import prfsnl from "../assets/prfsnl.png";
 
-function Home() {
+function Home() { 
     const lines = [
        
         "Professionally",
@@ -50,7 +50,7 @@ function Home() {
             <p>+ 11.1k</p>
             <div className="Home-s1-p3-section">
                 <img src={Live_Label} alt="Live_Label"/>
-                <p>Join Codeate Community of over 10k+ peoples ></p> 
+                <p>Join Codeate Community of over 10k+ peoples</p> 
             </div>
             </div>
             </div>
