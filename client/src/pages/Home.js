@@ -47,10 +47,10 @@ function Home() {
             <div className="Home-s1-p2"><p>Discover the power of cohort-based courses designed to take your learning to the next level. At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world. Learn alongside a thriving community and turn knowledge into real-world expertise.</p></div>
             <div className="Home-s1-p3">
             <img src={PeoplesGrp} alt="PeoplesGrp"/>
-            <p>+ 11.1k</p>
+            <p>+ 3.0k</p>
             <div className="Home-s1-p3-section">
                 <img src={Live_Label} alt="Live_Label"/>
-                <p>Join Codeate Community of over 10k+ peoples</p> 
+                <p>Join Codeate Community of over 3k+ peoples</p> 
             </div>
             </div>
             </div>

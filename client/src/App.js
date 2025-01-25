@@ -23,9 +23,9 @@ function App() {
        <nav>
           <ul class='nav-address'>
             {/* <li style={{color:'white'}}><Link to="/">Home</Link></li> */}
-            <li><Link to="/testimonial">Build</Link></li>
-            <li><Link to="/learn">Learn</Link></li>
-            <li><Link to="/community">Community</Link></li>
+            <li><Link to="#">Build</Link></li>
+            <li><Link to="#">Learn</Link></li>
+            <li><Link to="#">Community</Link></li>
             {/* <li><Link to="/consultancy">Consultancy</Link></li> */}
             <li className='getStarted'>
               <Link to="#">

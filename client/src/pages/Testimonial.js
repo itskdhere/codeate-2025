@@ -38,7 +38,7 @@ function Testimonial() {
                     <p>Partners</p>
                 </div>
                 <div className='upper-section-right-elems'>
-                    <h3>5000+</h3>
+                    <h3>3000+</h3>
                     <p>Community Members</p>
                 </div>
                 <div className='upper-section-right-elems'>
@@ -109,10 +109,10 @@ function Testimonial() {
   <div class="footer-bottom">
     <p>© 2024 Codeate. All rights reserved</p>
     <div class="social-icons">
-      <a href="#"><img src={whatsappVector} alt="WhatsApp" /></a>
-      <a href="https://www.instagram.com/codeate.in?igsh=MXdseTJqYmJ0dnF1Ng=="><img src={instaVector} alt="Instagram" /></a>
-      <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A74886369&keywords=codeate&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=974f88ff-3e35-48f8-bca8-ad4a56cb7ab2&sid=5%3Am&spellCorrectionEnabled=true"><img src={linVector} alt="LinkedIn" /></a>
-      <a href="#"><img src={discVector} alt="Discord" /></a>
+      <a href="https://chat.whatsapp.com/CPx0PYzQBUHEPGwqOqOXSP" target="_blank"><img src={whatsappVector} alt="WhatsApp" /></a>
+      <a href="https://www.instagram.com/codeate.in?igsh=MXdseTJqYmJ0dnF1Ng==" target="_blank"><img src={instaVector} alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A74886369&keywords=codeate&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=974f88ff-3e35-48f8-bca8-ad4a56cb7ab2&sid=5%3Am&spellCorrectionEnabled=true" target="_blank"><img src={linVector} alt="LinkedIn" /></a>
+      <a href="https://discord.gg/nFqkCBGNtf" target="_blank"><img src={discVector} alt="Discord" /></a>
     </div>
   </div>
 </footer>
