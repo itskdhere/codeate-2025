@@ -38,6 +38,7 @@ color: #0E5AED;
     text-align: justify; 
     overflow-wrap: break-word; 
 }
+
 .content-row {
     display: flex;
     align-items: center; 
@@ -317,8 +318,16 @@ color: #0E5AED;
         height: auto;
         margin: 0 auto;
     }
+    .upperSection-head h1{
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
     .upperSection-head p{
-        font-size: 16px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .upperSection-head{
+       padding-bottom: 1px;
     }
     .card {
         width: 100%;
@@ -343,5 +352,40 @@ color: #0E5AED;
     }
     .content-row img{
         max-width: 0%;
+    }
+    .left-section{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .left-section h3{
+        font-size: 5px;
+    }
+    .left-section p{
+        font-size: 5px;
+    }
+    .right-section p{
+        border: 1px solid white; 
+        border-radius: 7px;
+        padding: 6px;
+        font-size: 5px;
+        margin-bottom: 40px;
+     }
+     .right-section a {
+        text-decoration: none; 
+        color: white; 
+    }
+    .lower-card img {
+        border-radius:15px; 
+        max-width: 80%;
+        height: auto;   
+        margin-bottom: 50px;
+    }
+   
+    .insight-middle p{
+        font-size: 0.7rem;
+    }
+    .insight-middle h2{
+        font-size: 15px;
     }
 }

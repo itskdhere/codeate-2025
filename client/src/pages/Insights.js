@@ -10,6 +10,9 @@ import card from "../assets/GradientFill.svg";
 function Insights(){
     return(
         <div className="insightSection">
+        <div className="insight-middle">
+
+        
          <div className="upperSection-head">
                 <h1>Who We Are?</h1>
                 <p>Revolutionizing AI-Powered Experiential Learning</p>
@@ -61,16 +64,18 @@ function Insights(){
                 </div>
                 </div>
             </div> 
+            </div>
             <div className="lower-card">
-  <img src={card} alt="card" />
+  <img className="card-image" src={card} alt="card" />
   <div className="content-inside">
+  {/* <img src={card} alt="card" /> */}
     <div className="left-section">
       <h3>Want to connect with us?</h3>
       <p>Let's do this</p>
     </div>
     <div className="right-section">
   <a href="https://linktr.ee/krishnenduSamanta" target="_blank" rel="noopener noreferrer">
-    <p>Book a call on Calendly</p>
+    <p>Book a call on Calendly</p> 
   </a>
 </div>
   </div>
