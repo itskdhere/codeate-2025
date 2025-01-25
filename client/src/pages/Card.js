@@ -23,9 +23,8 @@ function Card() {
                 <h3>Elevate Your Skills with Experiential Learning.</h3>
                 
                 <p className='const'>Discover the power of cohort-based courses designed to take your learning to the next level. At Codeate, we combine cutting-edge content with project-based experiential learning, giving you the competitive edge to excel in the tech world. Learn alongside a thriving community and turn knowledge into real-world expertise.</p>
-                </div>
-               
-                <h3><br/>Learn More</h3>
+                <a href="#"><h3>Learn More</h3></a>
+                </div>       
             </div>
             </div> 
 
@@ -37,9 +36,8 @@ function Card() {
                 <h3>AI-Powered Projects. Real-World Skills. Certified Success.</h3>
                 
                 <p>Unleash your potential with our AI-powered Build program, designed to offer personalized, project-based learning in the most industry-relevant tech stacks. Gain hands-on experience, validate your expertise with impactful certifications, and elevate your career with the future of learning—powered by AI.</p>
+                <a href="#"><h3>Learn More</h3></a>
                 </div>
-                
-                <h3><br/>Learn More</h3>
                 </div>
                 <div className='right'>
                     <img src={buildCard} alt='card'/>
@@ -56,13 +54,14 @@ function Card() {
             <div className='left'>
                 <img src={comCard} alt='Card'/>
             </div>
-            <div className='right'><div className='paragraph-Div'>
+            <div className='right'>
+            <div className='paragraph-Div'>
                 <h2>Community</h2>
                 <p></p>
                 <h3>Your Gateway to an AI-Powered Career.</h3>
                 <p>
                 Join a professional community that bridges the gap between learning and industry. Collaborate with peers, gain direct exposure to real-world projects, and stay ahead with AI-driven insights and workshops. Build your network, sharpen your skills. And get ready for the career of tomorrow, today.</p>
-                <h3><br/>Learn More</h3>
+                <a href="#"><h3>Learn More</h3></a>
                 </div>
             </div>
             </div>
