@@ -10,42 +10,16 @@ import linVector from '../assets/linVector.png';
 import discVector from '../assets/discVector.png';
 import codeateLogo from '../assets/codeateLogo2.png';
 import Insights from "./Insights";
+import Upcoming from './Upcoming';
 
-
-function Testimonial() {
-
-
-
-    return(
+function Testimonial() {return(
         <div className='mContainer'>
-<div className='testimonial'>
+          <div className='testimonial'>
             <div className='upper-section'>
             <div className='upper-section-left'>
                 <h2>Number<br/>That Tell Our Story</h2>
                 <p>At Codeate, our numbers reflect the tangible impact we're making. From groundbreaking projects to a thriving community of learners and professionals, every stat tells the story of our success.</p>
             </div>
-            {/* <div className='upper-section-right'> 
-                <div className='upper-section-right-elems'>
-                    <h3>150+</h3>
-                    <p>Colleges</p>
-                </div>
-                <div className='upper-section-right-elems'>
-                    <h3>125+</h3>
-                    <p>Projects</p>
-                </div>
-                <div className='upper-section-right-elems'>
-                    <h3>25+</h3>
-                    <p>Partners</p>
-                </div>
-                <div className='upper-section-right-elems'>
-                    <h3>3000+</h3>
-                    <p>Community Members</p>
-                </div>
-                <div className='upper-section-right-elems'>
-                    <h3>1000+</h3>
-                    <p>Opportunities</p>
-                </div>
-            </div> */}
             <div className='upper-section-right'>
       <div className='upper-section-right-elems'>
         <h3>150+</h3>
@@ -86,9 +60,7 @@ function Testimonial() {
                 </div>
             </div>
         </div>
-        
         <Insights/>
-
         <footer class="footer">
   <div class="footer-container">
     <div class="footer-brand">
@@ -103,26 +75,26 @@ function Testimonial() {
       <div class="footer-column">
         <h4>Solutions</h4>
         <ul>
-          <li><a href="#">Build</a></li>
-          <li><a href="#">Learn</a></li>
-          <li><a href="#">Community</a></li>
+          <li><a href="/Upcoming">Build</a></li>
+          <li><a href="/Upcoming">Learn</a></li>
+          <li><a href="/Upcoming">Community</a></li>
         </ul>
       </div>
       <div class="footer-column">
         <h4>Services</h4>
         <ul>
-          <li><a href="#">Consultancy</a></li>
-          <li><a href="#">College Connects</a></li>
-          <li><a href="#">Upskilling</a></li>
+          <li><a href="/Upcoming">Consultancy</a></li>
+          <li><a href="/Upcoming">College Connects</a></li>
+          <li><a href="/Upcoming">Upskilling</a></li>
         </ul>
       </div>
       <div class="footer-column">
         <h4>Helpful Links</h4>
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">FAQ</a></li>
+          <li><a href="/Upcoming">About Us</a></li>
+          <li><a href="/Upcoming">Privacy Policy</a></li>
+          <li><a href="/Upcoming">Terms & Conditions</a></li>
+          <li><a href="/Upcoming">FAQ</a></li>
         </ul>
       </div>
     </div>
@@ -138,10 +110,8 @@ function Testimonial() {
     </div>
   </div>
 </footer>
-
-        </div>
-        
-    );
+</div>
+  );
 }
 
 export default Testimonial;
