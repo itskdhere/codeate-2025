@@ -377,35 +377,32 @@
 
 @media (max-width: 480px) {
     .testimonial {
-        padding: 20px; 
+        padding: 20px;
     }
 
     .upper-section {
-        gap: 15px; 
-    }
-
-    .upper-section-left h2 {
-        font-size: 20px; 
-    }
-
-    .upper-section-left p {
-        font-size: 16px; 
-    }
-
-    .upper-section-right {
         gap: 15px;
     }
 
+    .upper-section-left h2 {
+        font-size: 20px;
+    }
+
+    .upper-section-left p {
+        font-size: 16px;
+    }
+
+
     .upper-section-right-elems h3 {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .upper-section-right-elems p {
-        font-size: 12px; 
+        font-size: 12px;
     }
 
     .middle-section-p1 h3 {
-        font-size: 22px; 
+        font-size: 22px;
     }
 
     .middle-section-p1 p {
@@ -413,36 +410,37 @@
     }
 
     .middle-section-alpha p {
-        font-size: 14px; 
+        font-size: 14px;
     }
 
     .middle-section-alpha h3 {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .middle-section-p2 {
         margin-top: 20px;
-        flex-direction: column; 
+        flex-direction: column;
         gap: 10px;
     }
+
     .footer-logo {
-        width: 150px; 
-      }
-    
-      .footer-column h4 {
+        width: 150px;
+    }
+
+    .footer-column h4 {
         font-size: 18px;
-      }
-    
-      .footer-column li {
+    }
+
+    .footer-column li {
         font-size: 12px;
-      }
-    
-      .footer-column a {
-        font-size: 12px; 
-      }
-    
-      .join-button {
-        font-size: 12px; 
-        padding: 8px 16px; 
-      }
+    }
+
+    .footer-column a {
+        font-size: 12px;
+    }
+
+    .join-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
 }

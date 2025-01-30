@@ -24,7 +24,7 @@ function Testimonial() {
                 <h2>Number<br/>That Tell Our Story</h2>
                 <p>At Codeate, our numbers reflect the tangible impact we're making. From groundbreaking projects to a thriving community of learners and professionals, every stat tells the story of our success.</p>
             </div>
-            <div className='upper-section-right'>
+            {/* <div className='upper-section-right'> 
                 <div className='upper-section-right-elems'>
                     <h3>150+</h3>
                     <p>Colleges</p>
@@ -45,7 +45,29 @@ function Testimonial() {
                     <h3>1000+</h3>
                     <p>Opportunities</p>
                 </div>
-            </div>
+            </div> */}
+            <div className='upper-section-right'>
+      <div className='upper-section-right-elems'>
+        <h3>150+</h3>
+        <p>Colleges</p>
+      </div>
+      <div className='upper-section-right-elems'>
+        <h3>125+</h3>
+        <p>Projects</p>
+      </div>
+      <div className='upper-section-right-elems'>
+        <h3>25+</h3>
+        <p>Partners</p>
+      </div>
+      <div className='upper-section-right-elems'>
+        <h3>3000+</h3>
+        <p>Community Members</p>
+      </div>
+      <div className='upper-section-right-elems last-element'>
+        <h3>1000+</h3>
+        <p>Opportunities</p>
+      </div>
+    </div>
             </div>
             <div className='middle-section'>
                 <div className='middle-section-p1'>
