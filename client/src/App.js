@@ -18,7 +18,8 @@ function App() {
       <div className="all">
         <div className="nav-bar">
           <div className="nav-left">
-            <img src={logo} alt="logo" className="logo" />
+          <Link to='/'><img src={logo} alt="logo" className="logo" /></Link>
+            
             <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
               ☰
             </div>
