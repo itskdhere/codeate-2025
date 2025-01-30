@@ -106,9 +106,9 @@ function App() {
           {/* Navigation Links */}
           <nav>
             <ul className={`nav-address ${menuOpen ? "open" : ""}`}>
-              <li><Link to="#">Build</Link></li>
-              <li><Link to="#">Learn</Link></li>
-              <li><Link to="#">Community</Link></li>
+              <li><Link to="#"><p>Build</p></Link></li>
+              <li><Link to="#"><p>Learn</p></Link></li>
+              <li><Link to="#"><p>Community</p></Link></li>
               <li className="getStarted">
                 <Link to="#">
                   <p>Get Started</p>
