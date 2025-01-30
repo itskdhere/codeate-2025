@@ -16,19 +16,14 @@ function App() {
   return (
     <Router>
       <div className="all">
-        {/* Navigation Bar */}
         <div className="nav-bar">
           <div className="nav-left">
-            {/* Logo */}
             <img src={logo} alt="logo" className="logo" />
-
-            {/* Hamburger Button */}
             <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
               ☰
             </div>
           </div>
 
-          {/* Navigation Links */}
           <nav>
             <ul className={`nav-address ${menuOpen ? "open" : ""}`}>
               <li><Link to="/upcoming"><p>Build</p></Link></li>
@@ -43,7 +38,6 @@ function App() {
           </nav>
         </div>
 
-        {/* Route Configuration */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

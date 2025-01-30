@@ -25,7 +25,7 @@ function ProjectPage() {
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 768, // For tablets and smaller screens
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },

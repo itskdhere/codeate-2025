@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './About.css';
 import v1 from '../assets/amazonV.png';
 import v2 from '../assets/ciscoV.png';

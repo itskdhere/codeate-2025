@@ -23,19 +23,6 @@
     display: flex;
     gap: 15vh;
 }
-/* .upper-section-right{
-    display: flex; 
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-} */
-/* .upper-section-right-elems{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-} */
 .upper-section-right-elems h3{
     font-weight: 700;
     font-size: 28px;
@@ -64,8 +51,8 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    width: calc(33.33% - 40px); /* Equal width for 3 items in one row */
-    flex-basis: calc(33.33% - 40px); /* Flex basis for 3 items in the row */
+    width: calc(33.33% - 40px);
+    flex-basis: calc(33.33% - 40px);
 }
 
 

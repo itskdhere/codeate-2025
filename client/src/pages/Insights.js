@@ -20,12 +20,8 @@ function Insights(){
             <div className="upperSection">
             
                 <div className="upperSection-s1">
-              
-                <div className="card">
-                
-                {/* <img className="bgImage" src={bg} alt="Background" /> */}
-                <div className="about-us-content">
-               
+                <div className="card">              
+                <div className="about-us-content">          
                 <div className="content-row">
                 <img src={inRect} alt="Rect"/>
                 <h2>About us</h2>
@@ -37,7 +33,6 @@ function Insights(){
 
                 <div className="upperSection-s2">
                 <div className="card">
-                {/* <img className="bgImage" src={bg} alt="Background" /> */}
                 <div className="vision-content">
                 <div className="content-row">
                 <img src={inRect} alt="Rect"/>
@@ -50,7 +45,6 @@ function Insights(){
 
                 </div>
                 <div className="card">
-                {/* <img className="bgImage" src={bg} alt="Background" /> */}
                 <div className="mission-content">
                 
                 <div className="content-row">
@@ -68,7 +62,6 @@ function Insights(){
             <div className="lower-card">
   <img className="card-image" src={card} alt="card" />
   <div className="content-inside">
-  {/* <img src={card} alt="card" /> */}
     <div className="left-section">
       <h3>Want to connect with us?</h3>
       <p>Let's do this</p>
